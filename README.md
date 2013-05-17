@@ -51,3 +51,8 @@ Pipe and execute a script as root adding a parameter.
 ```
 cat ~/bin/check_timezone-and-datetime.sh |multi-ssh.sh -g customer1 --silent --stdin "sudo /bin/bash -s " 0.debian.pool.ntp.org
 ```
+
+multi-scp.sh
+============
+
+Copy a file to multiple servers.
