@@ -70,7 +70,7 @@ for i in $GROUP_LIST; do
   if [[ "$IS_COMMENT" == "#" ]]; then
     continue
   fi
-  echo "### $i #######################################################################"
+  echo "### $i ###"
   HOST=`echo $i |cut -d":" -f1`
   PORT=`echo $i |cut -s -d":" -f2`
   if [[ "$PORT" == "" ]]; then
